@@ -1,4 +1,178 @@
 .flag {
     width: 800px;
     height: 400px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+/* CZECHIA */
+
+#Czechia {
+    position: relative;
+}
+
+.Czechia_blue {
+    width: 0;
+	height: 0;
+	border-top: 200px solid transparent;
+	border-left: 400px solid #11457e;
+    border-bottom: 200px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.Czechia_white, .Czechia_red {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+.Czechia_white {
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}   
+
+.Czechia_red {
+    background-color: #d7141a;
+    top: 50%;
+    left: 0;
+}
+
+/* BELIZE */
+
+#Belize {
+    /* display: flex; */
+}
+
+.Belize_red {
+    background-color: #d90f19;
+    height: 40px;
+}
+
+.Belize_blue {
+    background-color: #171696;
+    height: 320px;
+}
+
+.Belize_blue, .Moldova_yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GREECE */
+
+#Greece {
+    background: repeating-linear-gradient(
+        #0d5eaf,
+        #0d5eaf 44px,
+        #fff 45px,
+        #fff 89px
+      );
+}
+
+.cross {
+    background-color: #0d5eaf;
+    width: 223px;
+    height: 223px;
+    position: relative;
+}
+
+.vertical_stripe, .horizontally_stripe {
+    background-color: #fff;
+}
+
+.vertical_stripe {
+    width: 45px;
+    height: 100%;
+    margin: auto;
+}
+
+.horizontally_stripe {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ICELAND */
+
+#Iceland {
+    background-color: #02529c;
+    position: relative;
+}
+
+.vertical_white, .horizontally_white {
+    background-color: #fff;
+}
+
+.vertical_red, .horizontally_red {
+    background-color: #dc1e35;
+}
+
+.vertical_white, .vertical_red {
+    height: 100%;
+}
+
+.vertical_white {
+    width: 100px;
+    position: absolute;
+    left: 160px;
+}
+
+.vertical_red {
+    width: 50px;
+    margin: auto;
+}
+
+.horizontally_white, .horizontally_red {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.horizontally_white {
+    height: 100px;
+}
+
+.horizontally_red {
+    height: 50px;
+}
+
+/* MOLDOVA */
+
+#Moldova {
+    display: flex;
+}
+
+.Moldova_blue, .Moldova_yellow, .Moldova_red {
+    height: inherit;
+    justify-content: center;
+}
+
+.Moldova_blue, .Moldova_red {
+    width: 33%;
+}
+.Moldova_blue {
+    background-color: #0046ae;
+}
+
+.Moldova_yellow {
+    background-color: #ffd200;
+    width: 34%;
+}
+
+.Moldova_yellow img {
+    height: max-content;
+}
+
+.Moldova_red {
+    background-color: #cc092f;
 }

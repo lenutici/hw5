@@ -326,3 +326,8 @@
     top: 0;
     left: 0;
 }
+
+#Brazil, #Moldova, #Grenada {
+    height: 100%;
+    width: 100%;
+}

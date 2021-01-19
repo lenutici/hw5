@@ -4,7 +4,6 @@
     display: inline-block;
     position: relative;
     border: 1px solid black;
-    margin-bottom: 20px;
     overflow: hidden;
 }
 
@@ -24,7 +23,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
 }
 
 /* CZECHIA */
@@ -42,7 +40,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
 }
 
 .Czechia_white, .Czechia_red {
@@ -331,3 +328,268 @@
     height: 100%;
     width: 100%;
 }
+.emblem-center{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.albania {
+    background-color: #f00;
+}
+.albania:hover .country-name{
+    display:block;
+}
+.albania-emblem{
+    width: 200px;
+    height: 215px;
+}
+.algeria{
+    background: linear-gradient(90deg, rgba(0,102,51,1) 50%, rgba(255,255,255,1) 50%);
+}
+.algeria:hover .country-name{
+    display:block;
+}
+.algeria-emblem{
+    width: 200px;
+    height: 215px;
+}
+.angola{
+    background: linear-gradient(180deg, rgba(204,9,47,1) 50%, rgba(0,0,0,1) 50%);
+}
+.angola:hover .country-name{
+    display:block;
+}
+.angola-emblem{
+    width: 200px;
+    height: 251px;
+}
+.andora{
+    background: linear-gradient(90deg, rgba(0,17,170,1) 33%, rgba(254,224,0,1) 33%, rgba(254,224,0,1) 66%, rgba(209,7,55,1) 66%);
+}
+.andora:hover .country-name{
+    display:block;
+}
+.andora-emblem{
+    width: 200px;
+    height: 251px;
+}
+.argentina{
+    background: linear-gradient(180deg, rgba(116,172,223,1) 33%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 66%, rgba(116,172,223,1) 66%);
+}
+.argentina:hover .country-name{
+    display:block;
+}
+.argentina-emblem{
+    width: 200px;
+    height: 200px;
+}
+.afghanistan{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(211,32,17,1) 33%, rgba(211,32,17,1) 66%, rgba(0,122,54,1) 66%);
+}
+.afghanistan:hover .country-name{
+    display:block;
+}
+.afghanistan-emblem{
+    width: 380px;
+    height: 380px;
+}
+.afghanistan:hover{
+    background: radial-gradient(circle, rgba(170,0,0,1) 29%, rgba(255,255,255,1) 29%);
+}
+.afghanistan:hover .afghanistan-emblem{
+    visibility: hidden;
+}
+.flag-finlandia {
+    width: 800px;
+    height: 400px;
+    background: #003580;
+    position: relative;
+  }
+  
+  .flag-finlandia::before,
+  .flag-finlandia::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: 0 solid #fff;
+  }
+  
+  .flag-finlandia::before {
+    width: calc((100%/18)*5);
+    border-top-width: calc((400px/11)*4);
+    border-bottom-width: calc((400px/11)*4);
+    left: 0;
+  }
+  
+  .flag-finlandia::after {
+    width: calc((100%/18)*10);
+    border-top-width: calc((400px/11)*4);
+    border-bottom-width: calc((400px/11)*4);
+    right: 0;
+  }
+  
+  .flag-finlandia:hover .country-name {
+    content: "";
+    display: block;
+  }
+  
+  .flag-germany {
+    position: relative;
+    background-color: yellow;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  .top {
+    background-color: #000;
+    height: 33.3%;
+  }
+  
+  .mid {
+    background-color: #dd0000;
+    height: 33.3%;
+  }
+  
+  .botm {
+    background-color: #ffce00;
+    height: 33.3%;
+  }
+  
+  .flag-germany:hover .country-name {
+    content: "";
+    display: block;
+  }
+  
+  .flag-bahamas {
+    height: 400px;
+    border: solid 1px #000000;
+    background: linear-gradient(to bottom, transparent 110px, #FDDA24 110px 280px, transparent 180px), linear-gradient(to bottom, transparent 166px, #ffffff 120px 200px, transparent 200px), #00A9CE;
+    border: solid 1px black;
+  }
+  
+  .flag-bahamas::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-left: 300px solid #000000;
+    border-bottom: 200px solid transparent;
+  }
+  
+  .flag-bahamas:hover .country-name {
+    content: "";
+    display: block;
+  }
+  
+  .flag-norway {
+    width: 800px;
+    position: relative;
+    background: linear-gradient(to right, transparent 140px, #002868 140px 180px, transparent 180px), linear-gradient(to bottom, transparent 140px, #002868 140px 180px, transparent 180px), linear-gradient(to bottom, transparent 120px, #ffffff 120px 200px, transparent 200px), linear-gradient(to right, transparent 120px, #ffffff 120px 200px, transparent 200px), #ef2b2d;
+    border: solid 1px black;
+  }
+  
+  .red-background {
+    position: absolute;
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 800px;
+    background: red;
+  }
+  
+  .white-box {
+    height: 100%;
+    position: absolute;
+    background: white;
+    width: 46%;
+    left: 27%;
+  }
+  
+  .maple-box {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(Images/canada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .flag-canada:hover .country-name {
+    content: "";
+    display: block;
+  }
+  
+  .flag-israel {
+    position: relative;
+    font-size: 99px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    margin: 0;
+    /*top: -20px;*/
+  }
+  
+  .flag-israel::before,
+  .flag-israel::after {
+    content: ' ';
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    height: 15%;
+  }
+  
+  .flag-israel::before {
+    top: 10%;
+  }
+  
+  .flag-israel::after {
+    bottom: 10%;
+  }
+  
+  .emblem-star {
+    position: absolute;
+    color: blue;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 250px;
+  }
+  
+  .flag-israel:hover .country-name {
+    content: "";
+    display: block;
+  }
+  
+  .flag-norway:hover {
+    margin-top: 0px;
+    content: "";
+    width: 800px;
+    height: 400px;
+    background: #9F9 linear-gradient(to right bottom, darkgreen 0, darkgreen 34%, yellow 0%, yellow 50%, red 0%) no-repeat left top /800px 147%;
+  }
+  
+  .flag-norway:hover .country-name {
+    display: block;
+  }
+  
+  .norway {
+    display: inline-block;
+  }
+  
+  .flag-norway:hover .norway {
+    display: none;
+  }
